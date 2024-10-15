@@ -2,13 +2,44 @@
 <html>
 
 <head>
-	<title>Portfolio of Ece Asirim</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
-	<noscript>
-		<link rel="stylesheet" href="assets/css/noscript.css" />
-	</noscript>
+    <title>Portfolio of Ece Asirim</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <style>
+        /* New background gradient */
+        body {
+            background: linear-gradient(135deg, #6A82FB 0%, #FC5C7D 100%);
+            color: #fff; /* Ensures text stands out on the background */
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* Adjust for links and other elements */
+        a {
+            color: #ffd700; /* Gold color for contrast */
+        }
+
+        /* Keep wrapper as is but make sure it stands out */
+        #wrapper {
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+        /* Style for buttons */
+        .button {
+            background-color: #ffd700;
+            color: #333;
+            border-radius: 5px;
+            padding: 10px 20px;
+        }
+
+        /* Add hover effect for button */
+        .button:hover {
+            background-color: #fc5c7d;
+            color: #fff;
+        }
+    </style>
 </head>
 
 <body class="is-preload">
@@ -17,10 +48,11 @@
 	<div id="wrapper" class="fade-in">
 
 		<!-- Intro -->
-		<div id="intro">
-			<h2>Ece Asirim</h2>
-			<br /> With a background in AI, data science, and neuroscience, I am deeply motivated by the intersection of technology and human-centered design. My experience spans from working with complex datasets in clinical and research set- tings to developing intuitive, user-friendly web solutions. Whether optimizing data pipelines or visualizing data, my focus has always been on creating tools that not only solve technical challenges but also enhance user experience. By testing, iterating, and continuously improving, I strive to build applications that meet both user needs and business goals.
-			<br /> Here's a collection of projects I have worked on (or currently do). </p>
+		<div id="intro" style="text-align: left;">
+			<h2 style="text-align: left;">Ece Asirim</h2>
+			<br /> 
+			<p style="text-align: left;">With a background in AI, data science, and neuroscience, I am deeply motivated by the intersection of technology and human-centered design. My experience spans from working with complex datasets in clinical and research settings to developing intuitive, user-friendly web solutions. Whether optimizing data pipelines or visualizing data, my focus has always been on creating tools that not only solve technical challenges but also enhance user experience. By testing, iterating, and continuously improving, I strive to build applications that meet both user needs and business goals.</p>
+			<br /> Here's a collection of projects I have worked on (or currently do).
 			<ul class="actions">
 				<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
 			</ul>
@@ -65,12 +97,11 @@
 
 				<article>
 					<header>
-						<h3><a href="#">City Discovery Game Web App<br />
+						<h3><a href="#">City Discovery Game Web Application<br />
 						</a></h3>
 					</header>
 					<!-- <a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a> -->
-					<p>This intelligent conversational agent capable of engaging in natural dialogues and answering both closed and open-ended questions.<br /> 
-						Utilizing a range of techniques such as knowledge graphs, embeddings, recommendation systems, multi-modal approaches, and crowdsourcing, the aim is to create a sophisticated agent that can respond accurately. <br />
+					<p>Full-stack web application that gamifies city exploration by using real-time geolocation and interactive maps. The app allows users to discover cities through a game interface, offering a collaborative experience. Integrated WebSockets for real-time data updates and external APIs for seamless geospatial functionality. (www.peekseek.ch)<br />
 					<ul class="actions special">
 						<li><a href="https://github.com/sopra-fs24-group-12/PeekSeek-client/blob/b0b26a4b4249ad11823ef3cfd0f683c7e9f89ecf/README.md" class="button">See Details</a></li>
 					</ul>
@@ -78,11 +109,11 @@
 
 				<article>
 					<header>
-						<h3><a href="#">UX/UI Design for Photography Web App<br />
+						<h3><a href="#">UX/UI Design for Photography Web Application<br />
 						</a></h3>
 					</header>
 					<!--  <a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a> -->
-					<p>End-to-end UX/UI design project of a web platform for nature photographers. User experience research, low- to high-fidelity prototypes and user interface design on Figma.<br />
+					<p>End-to-end UX/UI design of a web app prototype aimed at connecting nature photographers. Conducted user research through interviews with target users to guide design decisions, ensuring a user-centered experience. Developed low to high-fidelity wireframes using Figma, focusing on a component-based design for consistency and scalability.<br />
 					</p>
 					<ul class="actions special">
 						<li><a href="https://www.figma.com/file/jOgXT6LVBmELbIuTL2DsJ5/UX%2FUI-Design?type=design&node-id=7%3A45&mode=design&t=k2zssZJa1GFdy2hY-1" class="button">See Details</a></li>
@@ -109,7 +140,7 @@
 					</header>
 					<p>High fidelity prototype of AI interior design application (full project ongoing- Controlnet M-LSD line detection model finetuned with diffusers)</p>
 					<ul class="actions special">
-						<li><a href="https://www.figma.com/file/Y2yScVKxOl3UUzejm8JbNC/AI-Interior-Design?type=design&mode=design&t=rxVRvNtDZrCJCvjC-1" class="button">See Details</a></li>
+						<li><a href="https://www.figma.com/proto/Y2yScVKxOl3UUzejm8JbNC/AI-Interior-Design?node-id=1-66&node-type=frame&t=VQfn7FQn15Wiygr6-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1" class="button">See Details</a></li>
 					</ul>
 				</article>
 				
@@ -121,6 +152,17 @@
 					<p>Data Visualization using Bokeh Python library</p>
 					<ul class="actions special">
 						<li><a href="https://github.com/asirimece/DataViz_Bokeh.git" class="button">See Details</a></li>
+					</ul>
+				</article>
+
+				<article>
+					<header>
+						<h3><a href="#"><br />
+						</a></h3>
+					</header>
+					<p></p>
+					<ul class="actions special">
+						<li><a></a></li>
 					</ul>
 				</article>
 		
